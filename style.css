@@ -28,7 +28,7 @@ nav ul{
     display: flex;
 }
 nav li{
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 40px;
 }
 .logo{
@@ -65,22 +65,7 @@ main{
     font-size: 56px;
     line-height: 1.5;
     margin-bottom: 40px;
-    width: 1300px;
-}
-.botao{
-    display: flex;
-    padding: 10px 20px;
-    background-color: black;
-    color: #fff;
-    text-decoration: none;
-    border: 3px solid white;
-    border-radius: 90px;
-    font-size: 38px;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    width: 600px;
-    margin-left: 200px;
+    width:80%;
 }
 .botao{
     position: relative;
