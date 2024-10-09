@@ -19,124 +19,123 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 1vh 0vh;
 }
 nav ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     display: flex;
 }
 nav li{
-    margin-left: 50px;
-    font-size: 40px;
+    margin-left: 10%;
+    font-size: 3vh;
 }
 .logo{
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 2vh;
+    margin-left: 2vh;
 }
 .menu{
     text-decoration: none;
     color: inherit;
-    margin-right: 40px;
+    margin-right: 10%;
 }
 main{
-    margin: 0 auto;
-    padding: 20px;
+    margin: 0% auto;
+    padding: 3vh;
 }
 .conteudo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 0;
-    margin-left: 100px;
+    padding: 0.4vh 0vh;
+    margin-left: 5%;
 }
 .divulgacao{
-    flex: 1;
-    margin-right: 40px;
+    flex: 100%;
+    margin-right: 0%;
     font-family: "Kalnia", serif ;
 }
 .divulgacao h1{
-    font-size: 168px;
-    margin-bottom: 20px;
+    font-size: 12vh;
+    margin-bottom: 4vh;
 }
   
 .divulgacao p{
-    font-size: 56px;
+    font-size: 4vh;
     line-height: 1.5;
-    margin-bottom: 40px;
-    width:80%;
+    margin-bottom: 4vh;
+    width: 80%;
 }
 .botao{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 600px;
-    height: 80px;
-    margin-left: 200px;
+    width: 50%;
+    height: 6vh;
+    margin-left: 15%;
     background-color: transparent;
     color: #222;
     background-color: #f4f163;
     text-decoration: none;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 38px;
-    letter-spacing: 2px;
-    border-radius: 30px;
+    font-size: 3vh;
+    border-radius: 4vh;
     border: none;
-    box-shadow: 12px 12px 16px 0 #f4f163, -12px -12px 16px 0 #ffff85, inset 0 0 0 0 transparent;
+    box-shadow: 1vh 1vh 1vh 0vh #f4f163, -1vh -1vh 1vh 0 #ffff85, inset 0 0 0 0 transparent;
     transition: box-shadow 200ms, transform 300ms cubic-bezier(.2,2,1,1);
   }
 .botao:hover{
     color: #7e7e35;
 }
 .botao:active {
-    box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 8px 8px 12px 0px rgba(198, 186, 207, .9), inset -8px -8px 12px 0px rgba(242, 235, 252, 0.9);
+    box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 1vh 1vh 1vh 0vh rgba(198, 186, 207, .9), inset -1vh -1vh 2vh 0px rgba(242, 235, 252, 0.9);
     transform: scale(.9);
 }
 
 .quadrinhos{
     font-family: sans-serif;
     position: relative;
-    left: -300px;
-    top: -60px;
+    left: -10vh;
+    top: 3vh;
     display: flex;
     justify-content: space-between;
 }
 .quadrinho1{
     width: 48%;
-    margin-bottom: 30px;
+    margin-bottom: 0%;
 }
 .quadrinho1 img{
-    width: 100%;
+    width: 32vh;
     height: auto;
-    border-radius: 50px 50px 0px 0px;
+    border-radius: 10vh 10vh 0vh 0vh;
 }
 .quadrinho1 h2{
-    font-size: 24px;
-    margin-top: 10px;
-    margin-left: 20px;
+    font-size: 2vh;
+    margin-top: 2vh;
+    margin-left: 3vh;
 }
 .quadrinho1 p{
-    font-size: 16px;
+    font-size: 2vh;
     line-height: 1.5;
-    margin-left: 110px;
+    margin-left: 30%;
     
 }
 .quadrinho2 img{
-    width: 100%;
+    width: 32vh;
     height: auto;
-    border-radius: 0px 0px 50px 50px;
-    margin-left: 20px;
+    border-radius: 0vh 0vh 10vh 10vh;
+    margin-left: 3vh;
 }
 .quadrinho2 h2{
-    font-size: 24px;
-    margin-top: 10px;
-    margin-left: 90px;
+    font-size: 2.2vh;
+    margin-top: 2vh;
+    margin-left: 7vh;
 }
 .quadrinho2 p{
-    font-size: 16px;
+    font-size: 2vh;
     line-height: 1.5;
-    margin-left: 150px;
-    margin-bottom: 10px;
+    margin-left: 35%;
+    margin-bottom: 2vh;
 }
